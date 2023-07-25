@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+:root {
+    --color-dark: #1F2937;
+    --color-primary: #3882F6;
+}
+
+header {
+       background: var(--color-dark);
+}
+nav {
+   padding-top: 10px;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+ 
+
+}
+.h-right {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.h-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.h-left a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 11rem 5rem 11rem;
+    height: auto;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 200px;
+}
+
+.hero-w {
+    width: 45%;
+}
+
+.hero-w > h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-w > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero button {
+    background: var(--color-primary);
+    border: none;
+    outline: none;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+    color: #E5E7EB;
+    margin-top: 5px;
+    transform: 0.5s;
+}
+
+.hero button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+/* SECTION CSS STARTS */
+
+.info {
+    padding: 2rem 18rem 5rem 18rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+#info-header {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+.card {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 3rem;
+}
+.card > img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+/* QOUTE SECTION STARTS */
+.quote {
+    background: #E5E7EB;
+    padding: 10rem 18rem 5rem 18rem;
+}
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author::before {
+    content: "-";
+}
+
+#author {
+    font-size: 18px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+/* CALL FOR ACTION CSS STARTS */
+.call-cont {
+        padding: 5rem 11rem 5rem 11rem;
+}
+.call {
+    background: var(--color-primary);
+    padding: 3rem 6rem;
+    border-radius: 10px;
+    color: #F9FAF8;
+    
+}
+
+.call p button {
+    background: var(--color-primary);
+    border: none;
+    outline: none;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 2px solid white;
+    margin-left: 10rem;
+    transition: 0.5s;
+
+}
+
+.call p button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+footer {
+    padding: 2rem 12rem 2rem 12rem;
+    background: #1F2937;
+}
+
+footer p {
+    text-align: center;
+    color: #F9FAF8;
+}
